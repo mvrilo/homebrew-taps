@@ -12,22 +12,22 @@ class Torresmo < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/mvrilo/torresmo/releases/download/v0.1.1/torresmo_0.1.1_darwin_amd64.tar.gz"
-      sha256 "ececad823b91241eacc4bd62378c66088a5c833aaf15ab09767ef1acd3e739d1"
+      sha256 "5957354f0dc189bf3610d4abf7c1d9e3319eee1f45af540be2931073a6cf024c"
     end
     if Hardware::CPU.arm?
       url "https://github.com/mvrilo/torresmo/releases/download/v0.1.1/torresmo_0.1.1_darwin_arm64.tar.gz"
-      sha256 "3843f22f07eace770bf85e5c0bba18bdd596ee66f56704f9f5bca6bc75ae1a9d"
+      sha256 "aabc337ac5983b3c922fd831fc2a221a3ad3b4b4d6e07a8c64bddcb107f9bbaf"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/mvrilo/torresmo/releases/download/v0.1.1/torresmo_0.1.1_linux_amd64.tar.gz"
-      sha256 "3421070dd07e492a3b84f7f48e96900557b3bc8aebb1f9a5223344d05325d5a9"
+      sha256 "5ff5d517fcccbc373f6b5baac88935305c22b71a72b44500fdaba6060197e4ed"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/mvrilo/torresmo/releases/download/v0.1.1/torresmo_0.1.1_linux_arm64.tar.gz"
-      sha256 "70c0fb6ae9ca54ea8604bae3213581dda2fcb74014d6e4d101790c249e3f7586"
+      sha256 "ee10679150b7a9c0f448d88a3e09251bbeeb0fa883f81243ff7dd49640863809"
     end
   end
 
